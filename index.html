@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lakbay</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		function logIn(){
+			document.getElementById("signUp").innerHTML = "<h2>Log In</h2><p></p><input type=\"text\" placeholder=\"Username\" class=\"form-control\"><p></p><input type=\"password\" placeholder=\"Password\" class=\"form-control\"><p></p><button href=\"search.html\"class=\"btn btn-success\">Log In</button> <span><a href=\"#\" onclick=\"signUp()\">or Sign Up for a new account </a></span>";
+		}
+		function signUp(){
+			document.getElementById('signUp').innerHTML = "<h2>Sign Up</h2><p></p><input type=\"text\" placeholder=\"Username\" class=\"form-control\"><p></p><input type=\"email\" placeholder=\"Email\" class=\"form-control\"><p></p><input type=\"password\" placeholder=\"Password\" class=\"form-control\"><p></p><input type=\"password\" placeholder=\"Re-type Password\" class=\"form-control\"><p></p><button class=\"btn btn-success\">Sign me up!</button> <span><a href=\"#\" onclick=\"logIn()\">or Log in to existing account </a></span>";
+		}
+	</script>
+</head>
+<body class="def-font">
+	<div class="container">
+		<div class="row"><h1></h1></div>
+		<div class="row">
+			<div class="col">
+				<div class="container">
+					<img src="images/lakbay-logo.png" class="img-fluid logo-main">
+					<h1 class="text-left bold">Lakbay</h1><span><p class="text-left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima harum, accusantium non accusamus, temporibus labore, obcaecati incidunt ea, facilis rem aperiam sed sapiente eius quas tenetur. Corporis et sunt velit.</p></span>
+				</div>
+			</div>
+			<div class="col">
+				<div class="container">
+					<br><br>
+					<div class="container" id="signUp">
+						<h2>Sign Up</h2><p></p>
+						<input type="text" placeholder="Username" class="form-control"><p></p>
+						<input type="email" placeholder="Email" class="form-control"><p></p>
+						<input type="password" placeholder="Password" class="form-control"><p></p>
+						<input type="password" placeholder="Re-type Password" class="form-control"><p></p>
+						<button class="btn btn-success">Sign me up!</button> <span><a href="#" onclick="logIn()">or Log in to existing account </a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row"><h1></h1></div>
+	</div>
+	<div class="container-fluid instruction">
+		<div class="container">
+			<div class="row"><h1></h1></div>
+			<div class="row">
+				<div class="col">
+					<div class="container">
+						<h3 class="text-center"><i class="fa fa-search"></i></h3>
+						<h3 class="text-center">SEARCH</h3>
+						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eligendi exercitationem repellendus accusantium sed sint odio enim quibusdam, consectetur corrupti voluptatibus facere distinctio tenetur quis, omnis voluptatum ipsam quidem unde.</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="container">
+						<h3 class="text-center"><i class="fa fa-check-square"></i></h3>
+						<h3 class="text-center">BOOK</h3>
+						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eligendi exercitationem repellendus accusantium sed sint odio enim quibusdam, consectetur corrupti voluptatibus facere distinctio tenetur quis, omnis voluptatum ipsam quidem unde.</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="container">
+						<h3 class="text-center"><i class="fa fa-car"></i></h3>
+						<h3 class="text-center">TRAVEL</h3>
+						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eligendi exercitationem repellendus accusantium sed sint odio enim quibusdam, consectetur corrupti voluptatibus facere distinctio tenetur quis, omnis voluptatum ipsam quidem unde.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row"><h1></h1></div>
+		</div>
+	</div>
+	<div class="footer">
+		<h3 class="text-center">Contact Us</h3>
+		<h5 class="text-center"><a href="mailto:support@lakbay.co"><i class="fa fa-envelope fa-fw"></i></a>   <a href="https://www.facebook.com/lakbay" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>   <a href="https://twitter.com/lakbay" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>   <a href="https://instagram.com/lakbay" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></h5>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p>OTHERS</p>
+					<small><a href="lakbay-tsc.html">Lakbay for Transport Services</a></small><br>
+					<small><a href="#">Customer Service</a></small><br>
+					<small><a href="#">yeah</a></small><br>
+				</div>
+				<div class="col">
+					<p>LEARN MORE</p>
+					<small><a href="#">yeah</a></small><br>
+					<small><a href="#">Terms and Condition</a></small><br>
+					<small><a href="#">Legal Information</a></small><br>
+				</div>
+				<div class="col">
+					<p>ABOUT US</p>
+					<small><i class="fa fa-map-marker fa-fw"></i>	<a href="#">Cebu City, Philippines 6000</a></small><br>
+					<small><i class="fa fa-users fa-fw"></i>	<a href="#">The Lakbay Team</a></small><br>
+					<small><i class="fa fa-book fa-fw"></i>	<a href="#">Our Story</a></small>
+				</div>
+			</div>
+		</div>
+		<hr class="footer-hr">
+		<p class="text-center"><img src="images/lakbay-logo.png" class="img-fluid logo-footer"></p>
+		<p class="text-center"><small>Copyright &copy; 2018 Lakbay LLC. All Rights Reserved.</small></p>
+	</div>
+</body>
+</html>

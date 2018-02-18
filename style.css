@@ -1,0 +1,64 @@
+.def-font{
+	font-family: 'Oxygen', sans-serif;
+}
+h1{
+	display: block;
+    font-size: 6em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+body{
+	background-color: rgba(153,2255,153,1);
+	color: rgb(255,255,255);
+}
+h2{
+	display: block;
+    font-size: 2.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bolder;
+}
+.footer{
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0) !important;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	bottom: : 0px;
+}
+.footer-hr{
+	width: 90%;
+	height: 0px;
+	background-color: #000;
+}
+.hr-head{
+	width: 90%;
+	height: 0px;
+	background-color: #fff;
+}
+.instruction{
+	background-color: #1FBF42 !important;
+}
+.bold{
+	font-weight: bolder !important;
+}
+.logo-footer{
+	width: 10%;
+	height: 10%;
+}
+.logo-main{
+	width: 50%;
+	height:50%;
+	margin-bottom: -40px;
+}
+.price{
+	font-weight: bolder !important;
+}
+.star{
+	color: yellow;
+}
